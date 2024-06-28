@@ -105,4 +105,27 @@ body {
   .eliminarTodo {
     display: none;
     cursor: pointer;
+    color: white;
+    background-color: #e31746;
+    border:none;
+    border-radius: 3px;
+    padding: 5px;
   }
+  .eliminarTodo:hover{
+    background-color: lightseagreen;
+  }
+
+  @media (max-width: 768px) {
+    .empty {
+        display: block;
+        font-size: 14px;
+    }
+
+    .btn-add {
+        font-size: 14px;
+    }
+
+    .btn-delete {
+        font-size: 12px;
+    }
+}
